@@ -1,0 +1,146 @@
+.hex_button {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.hex_1 {
+    display: inline-block;
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+    background: white;
+    -webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+}
+
+.hex_2 {
+    padding: 1px;
+    height: 300px;
+    width: 300px;
+    background: black;
+    -webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+}
+
+.hex_3 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .5rem;
+    padding: 1rem;
+    height: 250px;
+    width: 250px;
+    background: white;
+    -webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+}
+
+.hex_4 {
+    height: 250px;
+    width: 250px;
+    background: black;
+    -webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+}
+
+.hex_4 h3 {
+    margin: 0 auto;
+    padding-top: 40%;
+}
+
+
+/* ------------------------ */
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+  
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 768px) {
+
+    .hidden_summary {
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 50vw;
+        height: 50vh;
+    }
+
+
+}
+  
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  
+    .hidden_summary {
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 50vw;
+        height: 50vh;
+    }
+    
+}
+
+/* ------------------------ */
+
+.hidden_summary {
+    color: #800000;
+    background-color: #0D0D0D;
+    margin: auto;
+}
+
+.skill_header {
+    font-size: xx-large;
+    margin: 1rem 0 0 1rem;
+    text-align: left;
+}
+
+.skill_disc {
+    padding-bottom: 2px;
+    border-bottom: solid black 1px;
+}
+
+.skill_subHeader {
+    font-size: large;
+}
+
+.hidden_summary ol {
+    list-style: none;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill_box {
+    display: inline-block;
+    width: 45%;
+    
+}
+
+.hidden_hover ol {
+    list-style: none;
+    margin: auto;
+}
+
+.hp_title {
+    margin-left: 10rem;
+    font-size: xx-large;
+    text-align: left;
+}
+
+.x_button {
+    float: right;
+    margin: 1rem 1rem 0 0;
+    background-color: #0D0D0D;
+    border: none;
+    color: white;
+    font-size: xx-large;
+}

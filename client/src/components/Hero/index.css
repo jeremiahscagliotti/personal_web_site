@@ -1,0 +1,47 @@
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .hero_img {
+        display: none;
+    }
+}
+  
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 768px) {
+
+}
+  
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .hero_sub {
+        position: absolute;
+        top: 65%;
+        left: 5%;
+    }
+
+    .hero {
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .hero_img {
+        position: absolute;
+        top: 10%;
+    }
+    
+    .hero_img img {
+        width: 100%;      
+        object-fit: contain;
+    }
+    
+    .fixed_layer {
+        position: absolute;
+        z-index: 5;
+        text-align: center;
+        margin-left: 25%;
+    }
+
+}
+
+/* ------------------------ */
+

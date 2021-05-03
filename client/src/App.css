@@ -1,0 +1,142 @@
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+  .g-wrapper {
+    text-align: center;
+    padding-top: 3rem;
+  }
+
+  .body-wrapper {   
+    margin: .5rem;
+    height: calc(100% - 1rem);
+  }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 768px) {
+
+  /* .g-wrapper {
+      margin-top: 148px;
+  } */
+  .body-wrapper {
+    margin: 5rem;
+    height: calc(100% - 10rem);
+  }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+  /* .g-wrapper {
+      margin-top: 159px;
+  } */
+
+  .body-wrapper {
+    margin: 5rem;
+    height: calc(100% - 10rem);
+  }
+  
+  .topborder {
+    height: 5rem;
+    width: 100%;
+    background-color: rgb(13,13,13);
+    top: 0;
+    position: fixed;
+    z-index: 1999999;
+  }
+
+  .botborder {
+    height: 5rem;
+    width: 100%;
+    background-color: rgb(13,13,13);
+    bottom: 0;
+    position: fixed;
+    z-index: 1999999;
+  }
+}
+
+.main-wrapper {
+  background-color: rgb(13,13,13);
+  height: 100vh;
+  overflow: auto;
+  overflow: hidden;
+}
+
+.body {
+  overflow: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.body::-webkit-scrollbar {
+  display: none;
+}
+    
+
+.body-wrapper {
+  text-align: center;
+}
+
+.body-black {
+  background-color:  black;
+}
+
+
+.g-h3 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  font-size: 1.7rem;
+  padding: 0;
+  margin: 0;
+}
+
+.g-wrapper {
+ 
+}
+
+/* 
+.g-pad {
+  padding: 0 2rem;
+}
+
+.g-h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  font-size: 2rem;
+}
+
+
+
+.g-h4 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  font-size: 1.5rem;
+}
+
+.g-h5 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  font-size: 1rem;
+}
+.g-p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.g-ol-li {
+
+}
+
+.g-line {
+  height: 1px;
+  background-color: black;
+}
+
+.g-flex {
+  flex-flow: column wrap;
+}  */

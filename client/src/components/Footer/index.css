@@ -1,0 +1,29 @@
+.footer_wrapper {
+    background-color: #800020;
+    width: 40px;
+    z-index: 999;
+    position: absolute;
+  
+}
+
+.footer_icons {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.footer_icons ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer_icons ul li img {
+    width: 80%;
+    height: 80%;
+
+}
+
+@media (max-width: 780px) {
+    .footer_wrapper {
+        display: none;
+    }
+}
