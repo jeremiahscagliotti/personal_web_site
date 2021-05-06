@@ -106,6 +106,12 @@
     .bottom_space {
         margin-bottom: 10rem;
     }
+
+    .skill_header {
+        font-size: xx-large;
+        margin: 3rem 0 0 1rem;
+        text-align: left;
+    }
 }
   
 /* Medium Devices, Desktops */
@@ -119,7 +125,7 @@
         right: 0;
         bottom: 0;
         width: 50vw;
-        height: 50vh;
+        height: 75vh;
     }
 
     .skill_body {
@@ -138,7 +144,7 @@
         right: 0;
         bottom: 0;
         width: 50vw;
-        height: 50vh;
+        height: 75vh;
     }
     
     .hex_button {
@@ -160,13 +166,11 @@
         margin: 0;
         padding: 0;
         display: flex;
-        
         white-space: nowrap;
         position: relative;
         overflow-x: auto;
         overflow-y: hidden;
-        -webkit-overflow-scrolling: touch;
-       
+        -webkit-overflow-scrolling: touch; 
     }
     .skill_disc {
         padding-bottom: 2px;
@@ -180,6 +184,12 @@
     .skill_subHeader {
         font-size: large;
     }
+
+    .skill_header {
+        font-size: xx-large;
+        margin: 1rem 0 0 1rem;
+        text-align: left;
+    }
 }
 
 /* ------------------------ */
@@ -190,19 +200,9 @@
     margin: auto;
 }
 
-.skill_header {
-    font-size: xx-large;
-    margin: 1rem 0 0 1rem;
-    text-align: left;
-}
-
-
-
 .skill_subHeader {
     font-size: large;
 }
-
-
 
 .x_button {
     float: right;
@@ -216,3 +216,23 @@
 .overlay_skills {
     display: inline-block;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #800020; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: white; 
+  }
