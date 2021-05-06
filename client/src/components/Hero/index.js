@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BnW } from '../../Images/index';
+
 
 
 const HeroComponent = props => {
@@ -17,7 +17,7 @@ const HeroComponent = props => {
                 </div>
                 <div className='hero_content'>
                     <div className='hero_img'>
-                        <img src={BnW} alt='Black an White hero' />
+                        <img src='https://portfolio-image-s3-bucket.s3.amazonaws.com/BW-portfolio.JPG' alt='Black an White hero' />
                     </div>
                 </div>
                 <h3 className='font_white fixed_layer'>Let your light so shine before men, that they may see your good works and glorify your Father in heaven. <span className='font_red'> - Matthew 5:16</span></h3>            
