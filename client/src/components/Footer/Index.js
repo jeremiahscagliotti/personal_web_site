@@ -20,12 +20,12 @@ const Footer = props => {
                         </a>
                     </li>
                     <li>
-                        <a href='https://www.linkedin.com/in/jeremiah-scagliotti/' target="_blank">
+                        <a href='https://www.linkedin.com/in/jeremiah-scagliotti/' target="_blank" rel="noreferrer">
                             <img src={LinkedIn} alt='LinkedIn: https://www.linkedin.com/in/jeremiah-scagliotti/'/>  
                         </a>
                     </li>
                     <li>
-                        <a href='https://github.com/jeremiahscagliotti' target="_blank">
+                        <a href='https://github.com/jeremiahscagliotti' target="_blank" rel="noreferrer">
                             <img src={GitHub} alt='GitHub: https://github.com/jeremiahscagliotti'/>
                         </a>
                     </li>

@@ -1,21 +1,23 @@
-import React,{ useState } from 'react';
+import React from 'react';
 import { SMM } from '../../Images/index';
+
+import './index.css';
 
 
 const PortfolioComponent = props => {
 
     return (             
-        <div className='g-wrapper'>
-            <div className='resume_top' id='PortfolioAnchorTag'>
+        
+            <div className='resume_bottom' id='PortfolioAnchorTag'>
                 <h2 className='font_red hp_title'><span className='font_white'>P</span>ortfolio</h2>
                 <div className='web_dev'>
                     <div className='portfolio_content'>
                         <div className='portfolio_info'>
-                            <a href='https://savannahmariemassage.com/' target="_blank">
-                                <img src={ SMM } />
+                            <a href='https://savannahmariemassage.com/' target="_blank" rel="noreferrer">
+                                <img src={ SMM } alt='SMM website page' />
                                 <h3 className='font_white'>Savannah Marie Massage</h3>
                             </a>
-                            <div className='hidden_hover font_red'>
+                            <div className='portfolio_skills font_red'>
                                     <ol>
                                         <li>React.js</li>
                                         <li>HTML</li>
@@ -38,7 +40,7 @@ const PortfolioComponent = props => {
                     </div>
                 </div>
             </div>
-        </div>
+ 
 
     );
 };

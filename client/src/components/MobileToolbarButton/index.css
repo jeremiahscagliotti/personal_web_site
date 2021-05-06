@@ -16,13 +16,14 @@
     }
 
 .odd_toggle_button_line {
-    background: #645F68;
+    background:  black;
+    border: solid 1px #800020;
     width: 100%;
     height: .25rem;
 }
 
 .even_toggle_button_line {
-    background: olive;
+    background: white;
     width: 100%;
     height: 2px;
 }

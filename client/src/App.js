@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Backdrop, Toolbar, MobileToolbar, Skills, Portfolio } from './components';
 import { Home, About } from './containers';
-import Map from './Images/OldWorldMap.jpg'
 import './App.css';
 
 class App extends Component {
@@ -67,15 +66,7 @@ class App extends Component {
     render() {
         return (
             <Router >
-                <div className='main-wrapper'
-                    style={{
-                        // maxWidth: "1280px",
-                        // textAlign: "center",
-                        // margin: "auto",
-                        // border: "1px solid lightgrey",
-                        // boxShadow: "10px 0 10px -2px lightgrey"
-                    }}>
-                    {/* <img src={Map} /> */}
+                <div className='main-wrapper'>            
                     <div className='body-wrapper body-black'>
                         <div className='topborder'></div>
                         {this.renderHeader()}

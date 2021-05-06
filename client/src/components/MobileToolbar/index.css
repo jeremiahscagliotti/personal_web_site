@@ -1,5 +1,5 @@
 .mobile_drawer {
-    background: white;
+    background: #800020;
     height: 100%;
     position: fixed;
     top: 0;
@@ -30,13 +30,13 @@
 
 .mobile_drawer a {
     text-decoration: none;
-    color: #5F5A63;
+    color: Black;
     font-size: 2rem;
 }
 
 .mobile_drawer a:hover,
 .mobile_drawer a:active {
-    color: #A7989A;
+    color: White;
     border-bottom: .1rem solid;
 }
 
