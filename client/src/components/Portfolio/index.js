@@ -27,13 +27,12 @@ const PortfolioComponent = props => {
                                     </ol>
                                 </div>
                             <p className='font_white'>
-                                My client was looking for a low cost website and a high quality feel
-                                and look. I built my clients site in React knowing hooks would still 
-                                work on a static page. We sate down design the entire layout and how to
-                                keep our cost low and still build out an afordable way to book clients 
-                                still get her client intakes to her clients. I found that squareup.comp
-                                provides a service that we needed and it cut the cost of the site and 
-                                then I found AWS provides a static hosting services.
+                                My client was looking for a low-cost website and a high-quality feel and look. 
+                                I built my client's site in React knowing hooks would still work on a static page. 
+                                We sat down to design the entire layout and how to keep our costs low and still 
+                                build out an affordable way to book clients still get her client intakes to 
+                                her clients. I found that squareup.com provides a service that we needed and 
+                                it cut the cost of the site and then I found AWS provides static hosting services.
                             </p>
 
                         </div>

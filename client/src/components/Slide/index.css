@@ -1,0 +1,30 @@
+.slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: auto;
+}
+
+.rt_arrow{
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    font-size: 3rem;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.lt_arrow{
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    font-size: 3rem;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}

@@ -7,6 +7,7 @@ import MobileToggleButton from './MobileToolbarButton';
 import Skills from './Skills';
 import Portfolio from './Portfolio';
 import Hero from './Hero';
+import Slide from './Slide';
 
 export {
   Backdrop,
@@ -17,5 +18,6 @@ export {
   MobileToggleButton,
   Skills,
   Portfolio,
-  Hero
+  Hero,
+  Slide
 };
