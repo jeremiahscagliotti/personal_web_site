@@ -26,14 +26,13 @@ const MobileToolbar = props => {
                     <li>
                         <Link to="/about"> About </Link>
                     </li>
-
+                    <li>
+                        <a href="/Resume.pdf" download="myFile">Resume</a>
+                    </li>
                     <li>
                         <a href='tel:323-217-8481'>
                             <img src={Phone} alt='Cell: (323)-217-8481'/>
                         </a>   
-                    </li>
-                    <li>
-                        <a href="/Resume.pdf" download="myFile">Resume</a>
                     </li>
                     <li>
                         <a href='mailto:jeremiahscagliotti@gmail.com'>
