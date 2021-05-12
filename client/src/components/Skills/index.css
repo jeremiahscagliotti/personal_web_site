@@ -89,7 +89,7 @@
 
     .skill_disc {
         text-align: center;
-        word-spacing: .5em;
+        
     }
 
     .skill_subHeader {
@@ -111,6 +111,10 @@
         font-size: xx-large;
         margin: 3rem 0 0 1rem;
         text-align: left;
+    }
+
+    .x_button {
+        margin-top: 3rem;
     }
 }
   
