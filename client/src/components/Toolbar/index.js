@@ -28,9 +28,7 @@ const Toolbar = props => (
                             <li className='nav_line one_line'></li>
                             <li> <Link to="/"> Home </Link> </li>
                             <li className='nav_line two_line'></li>
-                            <li> <HashLink to="/Skills"> Skills </HashLink> </li>
-                            <li className='nav_line two_line'></li>
-                            <li> <HashLink to="/Portfolio"> Portfolio </HashLink> </li>
+                            <li><a href="/Resume.pdf" download="myFile">Resume</a></li>
                             <li className='nav_line two_line'></li>
                             <li> <Link to="/about"> About </Link> </li>
                             <li className='nav_line three_line'></li>              

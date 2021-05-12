@@ -33,6 +33,9 @@ const MobileToolbar = props => {
                         </a>   
                     </li>
                     <li>
+                        <a href="/Resume.pdf" download="myFile">Resume</a>
+                    </li>
+                    <li>
                         <a href='mailto:jeremiahscagliotti@gmail.com'>
                             <img src={Gmail} alt='Gmail: jeremiahscagliotti@gmail.com'/>
                         </a>
@@ -47,6 +50,7 @@ const MobileToolbar = props => {
                             <img src={GitHub} alt='GitHub: https://github.com/jeremiahscagliotti'/>
                         </a>
                     </li>
+                    
 
                 </ul>
             </div>

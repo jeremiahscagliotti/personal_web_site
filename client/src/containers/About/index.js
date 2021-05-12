@@ -61,9 +61,9 @@ const About = props => {
                     </div>
                     <div className='about_summary_one'>
                         <p>
-                        Enjoy the content created, please contact me if you have any 
-                        inquiries. Thank you so much for taking the time to learn a 
-                        bit about me,
+                            Enjoy the content created, please contact me if you have any 
+                            inquiries. Thank you so much for taking the time to learn a 
+                            bit about me.
                         </p>
                     </div>
                     {/* <div className='pend_fix'>
