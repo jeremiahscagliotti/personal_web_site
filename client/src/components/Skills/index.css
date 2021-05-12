@@ -54,6 +54,7 @@
     }
 
     .hidden_summary {
+        padding-top: 4rem;
         position: fixed;
         z-index: 99;
         top: 0;
