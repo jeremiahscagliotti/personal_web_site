@@ -67,7 +67,6 @@
 
     .skill_box {
         display: block;  
-        padding-bottom: .2rem; 
         border: solid 1px #800020;
     }
 
@@ -96,11 +95,6 @@
     .skill_subHeader {
         font-size: large;
         
-    }
-
-    .scroll_skills {
-        padding-top: 3rem;
-        margin-top: 3rem;
     }
 
     .scroll_skills ol {
