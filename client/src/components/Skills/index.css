@@ -97,6 +97,10 @@
         
     }
 
+    .scroll_skills {
+        padding-top: 3rem;
+    }
+
     .scroll_skills ol {
         margin: 0;
         padding: 0;
