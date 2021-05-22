@@ -28,7 +28,7 @@ const Toolbar = props => (
                             <li className='nav_line one_line'></li>
                             <li> <Link to="/"> Home </Link> </li>
                             <li className='nav_line two_line'></li>
-                            <li><a href="https://portfolio-image-s3-bucket.s3.amazonaws.com/Jeremiah+Scagliotti+2021+Resume.pdf" download="myFile">Resume</a></li>
+                            <li><a href="https://portfolio-image-s3-bucket.s3.amazonaws.com/Jeremiah_Scagliotti_2021_resume.pdf" download="myFile">Resume</a></li>
                             <li className='nav_line two_line'></li>
                             <li> <Link to="/about"> About </Link> </li>
                             <li className='nav_line three_line'></li>              
