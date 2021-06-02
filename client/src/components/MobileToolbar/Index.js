@@ -27,7 +27,7 @@ const MobileToolbar = props => {
                         <Link to="/about"> About </Link>
                     </li>
                     <li>
-                        <a href="https://portfolio-image-s3-bucket.s3.amazonaws.com/Jeremiah_Scagliotti_2021_resume.pdf" download="myFile">Resume</a>
+                        <a href="https://portfolio-image-s3-bucket.s3.amazonaws.com/Jeremiah+Scagliotti+2021+Resume+-+6.2.21.pdf" download="myFile">Resume</a>
                     </li>
                     <li>
                         <a href='tel:323-217-8481'>
