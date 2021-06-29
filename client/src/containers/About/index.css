@@ -28,7 +28,7 @@
     .about_summary {
         display: inline-block;
         max-width: 60vw;
-        margin: 5rem;
+       
         position: fixed;
         top: 8rem;
         right: 2rem;

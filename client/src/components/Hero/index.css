@@ -8,7 +8,24 @@
   
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 768px) {
-
+    .hero_sub {
+        position: absolute;
+        top: 65%;
+        left: 10%;
+    }
+    
+    .hero {
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .fixed_layer {
+        position: absolute;
+        z-index: 5;
+        text-align: center;
+        margin-left: 25%;
+    }
 }
   
 /* Large Devices, Wide Screens */
